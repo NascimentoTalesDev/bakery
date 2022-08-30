@@ -1,0 +1,21 @@
+.section-1{
+    display: flex;
+    // overflow: hidden;
+    // display: none;
+    transition: width 0.5s 0.5s;
+    position: relative;
+    align-items: center;
+
+    .arrow{
+        position: absolute;
+        align-items: center;
+        width: 100%;
+        background-color: red;
+        i{
+            font-size: 3rem;
+        }
+    }
+    .img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+.section-1 {
+  display: flex;
+  transition: width 0.5s 0.5s;
+  position: relative;
+  align-items: center;
+}
+.section-1 .arrow {
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  background-color: red;
+}
+.section-1 .arrow i {
+  font-size: 3rem;
+}
+.section-1 .img {
+  width: 100%;
+}/*# sourceMappingURL=section1.css.map */
