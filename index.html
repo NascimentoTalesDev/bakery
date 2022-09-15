@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/main.css">
   <!-- CndJS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
@@ -17,7 +20,104 @@
 </head>
 <body>
     <div class="container">
-       
+      <div class="section-1">
+        <div class="carrossel" id="carrossel">
+          <img id="img1" src="./src/assets/images/bg_01.jpg">
+          <img id="img2" src="./src/assets/images/bg_02.jpg">
+          <img id="img3" src="./src/assets/images/bg_03.jpg">
+          <img id="img4" src="./src/assets/images/bg_04.jpg">
+          <img id="img5" src="./src/assets/images/bg_05.jpg">
+          <img id="img6" src="./src/assets/images/bg_06.jpg">
+          <img id="img7" src="./src/assets/images/bg_07.jpg">
+        </div>
+        <div class="controls">
+          <div class="controls-itens">
+            <ul>
+              <a href="#img1"><li><i class="fas fa-circle"></i></li></a>
+              <a href="#img2"><li><i class="fas fa-circle"></i></li></a>
+              <a href="#img3"><li><i class="fas fa-circle"></i></li></a>
+              <a href="#img4"><li><i class="fas fa-circle"></i></li></a>
+              <a href="#img5"><li><i class="fas fa-circle"></i></li></a>
+              <a href="#img6"><li><i class="fas fa-circle"></i></li></a>
+              <a href="#img7"><li><i class="fas fa-circle"></i></li></a>              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class="section-2">
+        <nav class="nav-container">
+          <div class="logo">
+            <a href="index.html"><img src="./src/assets/images/logo-removebg-preview.png" alt="" srcset=""></a>
+          </div>
+          <div class="menu">
+            <ul class="item-list">
+              <a href="#"><li class="item">Home</li></a>
+              <a href="#products"><li class="item">Produtos</li><i class="fas fa-caret-down"></i></a>
+              <a href="#"><li class="item">Produção & Qualidade</i></li><i class="fas fa-caret-down"></i></a>
+              <a href="#"><li class="item">Sobre Nós</li></a>
+              <a href="#"><li class="item">Contato</i></li><i class="fas fa-caret-down"></i></a>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <section class="section-3">
+        <div class="produtos" id="products">
+          <h1>Produtos</h1>
+          <div id="cakes">
+            <div class="image">
+              <img class="img" src="./src/assets/images/1.jpg">
+              
+            </div>
+            <div class="image">
+              <img class="img" src="./src/assets/images/2.jpg">
+            </div>
+            <div class="image">
+              <img class="img" src="./src/assets/images/3.jpg">
+            </div>
+            <div class="image">
+              <img class="img" src="./src/assets/images/4.jpg">
+            </div>
+            <div class="image">
+              <img class="img" src="./src/assets/images/5.jpg">
+            </div>
+            <div class="image">
+              <img class="img" src="./src/assets/images/6.jpg">
+            </div>
+            <div class="image">
+              <img class="img" src="./src/assets/images/7.jpg">
+            </div>
+            <div class="image">
+              <img class="img" src="./src/assets/images/8.jpg">
+            </div>
+            <div class="image">
+              <img class="img" src="./src/assets/images/9.jpg">
+            </div>
+          </div>
+          <!-- <div id="pies">
+            <img class="img" src="./src/assets/images/1.jpg">
+            <img class="img" src="./src/assets/images/1.jpg">
+            <img class="img" src="./src/assets/images/1.jpg">
+            <img class="img" src="./src/assets/images/1.jpg">
+            <img class="img" src="./src/assets/images/1.jpg">
+          </div> -->
+          
+
+        </div>
+        <div class="right">
+          <div class="one">
+            <h2>Fazemos a sua encomenda <span>Única</span></h2>
+          </div>
+          <div class="two">
+            <ul class="items-link">
+              <li class="item"><a href="#cakes">Bolos</a></li>
+              <li class="item"><a href="">Cheesecakes</a></li>
+              <li class="item"><a href="">Tortas</a></li>
+              <li class="item"><a href="">Brownies</a></li>
+              <li class="item"><a href="">Muffins</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
     
     <script src="src/scripts/script.js"></script>
