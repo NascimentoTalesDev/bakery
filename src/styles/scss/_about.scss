@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  z-index: 999;
+  background: white;
+  padding: 10px 0;
+  .container {
+    h2{
+        padding-top: 10rem;
+        text-align: center;
+        font-size: 4rem;
+        color: $textColor;
+        font-weight: 900;
+        text-align: left;
+    }
+    h3 {
+        color: $textColor;
+        font-size: 2.5rem;
+        
+    }
+    p {
+        text-indent: 30px;
+        font-size: 1.8rem;
+    }
+    ul {
+        li {
+            font-size: 1.8rem;
+            text-indent: 30px;
+            span{
+                font-weight: bold;
+              color: $textColor;
+          }
+      }
+    }
+  }
+}

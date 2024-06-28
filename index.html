@@ -1,125 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/styles/main.css">
-  <!-- CndJS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <!-- End Of CndJS -->
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- Enf Of Google Font -->
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Panificadora & Confeitaria Kipão</title>
 </head>
+
 <body>
-    <div class="container">
-      <div class="section-1">
-        <div class="carrossel" id="carrossel">
-          <img id="img1" src="./src/assets/images/bg_01.jpg">
-          <img id="img2" src="./src/assets/images/bg_02.jpg">
-          <img id="img3" src="./src/assets/images/bg_03.jpg">
-          <img id="img4" src="./src/assets/images/bg_04.jpg">
-          <img id="img5" src="./src/assets/images/bg_05.jpg">
-          <img id="img6" src="./src/assets/images/bg_06.jpg">
-          <img id="img7" src="./src/assets/images/bg_07.jpg">
+  <div class="container">
+    <div class="section-1">
+      <div class="carrossel" id="carrossel">
+        <img id="img1" src="./src/assets/images/bg_01.jpg">
+        <img id="img2" src="./src/assets/images/bg_02.jpg">
+        <img id="img3" src="./src/assets/images/bg_03.jpg">
+        <img id="img4" src="./src/assets/images/bg_04.jpg">
+        <img id="img5" src="./src/assets/images/bg_05.jpg">
+        <img id="img6" src="./src/assets/images/bg_06.jpg">
+        <img id="img7" src="./src/assets/images/bg_07.jpg">
+      </div>
+      <div class="controls"></div>
+    </div>
+    <section class="section-2">
+      <nav class="nav-container">
+        <div class="logo">
+          <a href="index.html"><img src="./src/assets/images/logo-removebg-preview.png" alt="" srcset=""></a>
         </div>
-        <div class="controls">
-          <div class="controls-itens">
-            <ul>
-              <a href="#img1"><li><i class="fas fa-circle"></i></li></a>
-              <a href="#img2"><li><i class="fas fa-circle"></i></li></a>
-              <a href="#img3"><li><i class="fas fa-circle"></i></li></a>
-              <a href="#img4"><li><i class="fas fa-circle"></i></li></a>
-              <a href="#img5"><li><i class="fas fa-circle"></i></li></a>
-              <a href="#img6"><li><i class="fas fa-circle"></i></li></a>
-              <a href="#img7"><li><i class="fas fa-circle"></i></li></a>              
-            </ul>
+        <div class="menu">
+          <ul class="item-list">
+            <a href="#">
+              <li class="item">Home</li>
+            </a>
+            <a href="#products">
+              <li class="item">Produtos</li><i class="fas fa-caret-down"></i>
+            </a>
+            <a href="#">
+              <li class="item">Produção & Qualidade</i></li><i class="fas fa-caret-down"></i>
+            </a>
+            <a href="#about">
+              <li class="item">Sobre Nós</li>
+            </a>
+            <a href="#contact">
+              <li class="item">Contato</i></li><i class="fas fa-caret-down"></i>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section class="section-products">
+      <div class="produtos" id="products">
+        <h2>Bolos</h2>
+        <div id="cakes">
+          <div class="image">
+            <img class="img" src="./src/assets/images/1.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/2.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/3.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/4.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/5.jpg">
           </div>
         </div>
       </div>
-      <section class="section-2">
-        <nav class="nav-container">
-          <div class="logo">
-            <a href="index.html"><img src="./src/assets/images/logo-removebg-preview.png" alt="" srcset=""></a>
+      <div class="right">
+        <div class="one">
+          <h2>Fazemos a sua encomenda <br> <span>Única</span></h2>
+        </div>
+        <div class="two">
+          <ul class="items-link">
+            <li class="item"><a href="#products">Bolos</a></li>
+            <li class="item"><a href="#cheesecakes">Cheesecakes</a></li>
+            <li class="item"><a href="#pies">Tortas</a></li>
+            <li class="item"><a href="#brownies">Brownies</a></li>
+            <li class="item"><a href="#muffins">Muffins</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section-products">
+      <div class="produtos" id="cheesecakes">
+        <h2>Cheesecakes</h2>
+        <div id="cakes">
+          <div class="image">
+            <img class="img" src="./src/assets/images/6.jpg">
           </div>
-          <div class="menu">
-            <ul class="item-list">
-              <a href="#"><li class="item">Home</li></a>
-              <a href="#products"><li class="item">Produtos</li><i class="fas fa-caret-down"></i></a>
-              <a href="#"><li class="item">Produção & Qualidade</i></li><i class="fas fa-caret-down"></i></a>
-              <a href="#"><li class="item">Sobre Nós</li></a>
-              <a href="#"><li class="item">Contato</i></li><i class="fas fa-caret-down"></i></a>
-            </ul>
+          <div class="image">
+            <img class="img" src="./src/assets/images/7.jpg">
           </div>
-        </nav>
-      </section>
-      <section class="section-3">
-        <div class="produtos" id="products">
-          <h1>Produtos</h1>
-          <div id="cakes">
-            <div class="image">
-              <img class="img" src="./src/assets/images/1.jpg">
-              
-            </div>
-            <div class="image">
-              <img class="img" src="./src/assets/images/2.jpg">
-            </div>
-            <div class="image">
-              <img class="img" src="./src/assets/images/3.jpg">
-            </div>
-            <div class="image">
-              <img class="img" src="./src/assets/images/4.jpg">
-            </div>
-            <div class="image">
-              <img class="img" src="./src/assets/images/5.jpg">
-            </div>
-            <div class="image">
-              <img class="img" src="./src/assets/images/6.jpg">
-            </div>
-            <div class="image">
-              <img class="img" src="./src/assets/images/7.jpg">
-            </div>
-            <div class="image">
-              <img class="img" src="./src/assets/images/8.jpg">
-            </div>
-            <div class="image">
-              <img class="img" src="./src/assets/images/9.jpg">
-            </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/8.jpg">
           </div>
-          <!-- <div id="pies">
+          <div class="image">
+            <img class="img" src="./src/assets/images/9.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-products">
+      <div class="produtos" id="pies">
+        <h2>Tortas</h2>
+        <div id="cakes">
+          <div class="image">
             <img class="img" src="./src/assets/images/1.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/2.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/3.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/4.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/5.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/6.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/7.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/8.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/9.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-products">
+      <div class="produtos" id="brownies">
+        <h2>Brownies</h2>
+        <div id="cakes">
+          <div class="image">
             <img class="img" src="./src/assets/images/1.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/2.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/3.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/4.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/5.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/6.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/7.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/8.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/9.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-products">
+      <div class="produtos" id="muffins">
+        <h2>Muffins</h2>
+        <div id="cakes">
+          <div class="image">
             <img class="img" src="./src/assets/images/1.jpg">
-            <img class="img" src="./src/assets/images/1.jpg">
-            <img class="img" src="./src/assets/images/1.jpg">
-          </div> -->
-          
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/2.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/3.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/4.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/5.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/6.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/7.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/8.jpg">
+          </div>
+          <div class="image">
+            <img class="img" src="./src/assets/images/9.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo à Kipão, onde a tradição e a inovação se encontram para trazer o melhor da panificação até você!</p>
 
-        </div>
-        <div class="right">
-          <div class="one">
-            <h2>Fazemos a sua encomenda <span>Única</span></h2>
+        <h3>Nossa História</h3>
+        <p>A Kipão nasceu da paixão por criar pães artesanais e produtos de confeitaria de alta qualidade. Desde o
+          início, nosso objetivo sempre foi proporcionar momentos de prazer e satisfação através de sabores únicos e
+          frescos. Com anos de experiência e dedicação, nos tornamos uma referência na comunidade, reconhecidos pela
+          nossa
+          qualidade excepcional e pelo atendimento caloroso.</p>
+
+        <h3>Nossa Missão</h3>
+        <p>Na Kipão, acreditamos que cada pão e cada doce deve ser uma experiência única. Nossa missão é trazer o
+          sabor da tradição e a inovação da modernidade para a sua mesa. Utilizamos apenas ingredientes selecionados e
+          frescos, garantindo que cada mordida seja inesquecível.</p>
+
+        <h3>O que nos Torna Únicos</h3>
+        <ul>
+          <li><span>Qualidade</span>: Cada produto é cuidadosamente elaborado com ingredientes de primeira linha.</li>
+          <li><span>Variedade</span>: Oferecemos uma ampla gama de pães, bolos, tortas, salgados e muito mais, atendendo a todos os
+            gostos e ocasiões.</li>
+          <li><span>Tradição e Inovação</span>: Combinamos receitas tradicionais com técnicas modernas para criar produtos
+            exclusivos.
+          </li>
+          <li><span>Atendimento</span>: Nossa equipe é dedicada e apaixonada pelo que faz, sempre pronta para atender você com um
+            sorriso e ajudar a encontrar o que você precisa.</li>
+        </ul>
+
+        <h3>Nossos Produtos</h3>
+        <p>Desde pães fresquinhos, passando por croissants, doces tentadores até bolos para ocasiões especiais, na
+          Kipão,
+          cada produto é feito com amor e dedicação. Nosso cardápio é pensado para satisfazer todos os paladares, com
+          opções para todos os momentos do dia.</p>
+
+        <h3>Venha nos Visitar!</h3>
+        <p>Estamos sempre de portas abertas para receber você. Venha conhecer nossa padaria, experimentar nossos
+          produtos
+          e sentir o sabor da Kipão. Seja para um café da manhã, um lanche da tarde ou uma encomenda especial, estamos
+          aqui para tornar seu dia mais gostoso.</p>
+      </div>
+    </section>
+    <session class="session-4" id="contact">
+      <div class="left">
+        <h2>Contato</h2>
+        <div class="space">
+          <div>
+            <img src="/src/assets/images/telefone.png" alt="" srcset="">
+            <h3>Nosso telefone<span>
           </div>
-          <div class="two">
-            <ul class="items-link">
-              <li class="item"><a href="#cakes">Bolos</a></li>
-              <li class="item"><a href="">Cheesecakes</a></li>
-              <li class="item"><a href="">Tortas</a></li>
-              <li class="item"><a href="">Brownies</a></li>
-              <li class="item"><a href="">Muffins</a></li>
-            </ul>
+          <div>
+            <span>41-933548495</span>
           </div>
         </div>
-      </section>
-    </div>
-    
-    <script src="src/scripts/script.js"></script>
+
+        <div class="space">
+          <div>
+            <img src="/src/assets/images/endereco.png" alt="" srcset="">
+            <h3>
+              Nosso Endereço
+            </h3>
+          </div>
+          <div>
+            <span>
+              84072-508 <br>
+              Rua Boca de Leão - Boa Vista <br>
+              Ponta Grossa, PR
+            </span>
+          </div>
+        </div>
+
+        <div class="space">
+          <div>
+            <img src="/src/assets/images/casa.png" alt="" srcset="">
+            <h3>Horario de funcionamento</h3>
+          </div>
+          <div>
+            <span>
+              Seg: 06:00 - 20:00<br>
+              Ter: 06:00 - 20:00<br>
+              Qua: 06:00 - 20:00<br>
+              Qui: 06:00 - 20:00<br>
+              Sex: 06:00 - 20:00<br>
+              Sab: 06:00 - 20:00<br>
+              Dom: 06:00 - 12:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+
+        <div class="container">
+          <div>
+            <label for="">
+              Email
+              <input type="email" name="email" id="email">
+            </label>
+            <label for="">
+              Nome
+              <input type="text" name="name" id="name">
+            </label>
+          </div>
+          <div>
+            <label for="">
+              Endereço
+              <input type="text" name="address" id="address">
+            </label>
+          </div>
+          <div class="message">
+            <label for="message">
+              Mensagem
+              <textarea rows="6" name="message" id="message"></textarea>
+            </label>
+          </div>
+          <div class="submit">
+            <button type="submit">ENVIAR</button>
+          </div>
+        </div>
+
+      </div>
+    </session>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2024 Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="src/scripts/script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,91 @@
+.session-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+    background: white;
+    padding: 80px 0;
+
+    .left{ 
+        h2{
+            color: $textColor;
+            font-size: 5rem;
+            margin-bottom: 20px;
+        }
+        .space{
+            margin-bottom: 10px;
+            color: $textColor;
+
+            div{
+                font-size: 2rem;
+                display: flex;
+                gap: 10px;
+                img{
+                    width: 30px;
+                }
+                h3{
+
+                }
+            }
+            div{
+                span{
+                    font-size: 1.5rem;
+                    margin-left: 40px;
+                }
+            }
+        }
+    }
+
+    .right{
+        width: 40%;
+        color: $textColor;
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            div{
+                display: flex;
+                width: 100%;
+                gap: 5px;
+                label{
+                    font-size: 2rem;
+                    width: 100%;
+                    input{
+                        padding: 8px;
+                        font-size: 16px;
+                        width: 100%;
+                    }
+                }
+            }
+            .message{
+                label{
+                    textarea{
+                        width: 100%;
+                        padding: 10px;
+                        font-size: 16px;
+                        resize: none;
+                    }
+                }
+            }
+            .submit{
+                button{
+                    border: none;
+                    color: white;
+                    background-color: $textColor;
+                    padding: 10px;
+                    width: 100%;
+                    font-size: 1.5rem;
+                    &:active{
+                        transform: scale(0.99);
+                    }
+                }
+
+            }
+        }
+    }
+    
+}

@@ -2,9 +2,10 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999999;
     .nav-container{
-        width: 95%;
-        max-width: 900px;
+        width: 100%;
+        max-width: 1100px;
         margin: auto;
         display: flex;
         flex-direction: row;
