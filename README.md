@@ -12,14 +12,12 @@
 </p>
 <div align="center" >
   <div>
-    <video autoPlay controls loop>
-        <source src="./src/videos/bakery-video.mp4" width="400px" type="video/mp4">
-    </video>
-    <img src="./src/images/img2.png" width="400px">
+    <img src="./src/assets/images/img1.png" width="400px">
+    <img src="./src/assets/images/img2.png" width="400px">
   </div>
   <div>
-    <img src="./src/images/img1.png" width="400px">
-    <img src="./src/images/img3.png" width="400px">
+    <img src="./src/assets/images/img3.png" width="400px">
+    <img src="./src/assets/images/img4.png" width="400px">
   </div>
 </div>
 

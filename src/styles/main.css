@@ -125,16 +125,9 @@ body .container {
   margin-right: 1rem;
   margin-right: 3rem;
   color: #4a2c21;
-  -webkit-transition: color 0.7s;
-  transition: color 0.7s;
+  -webkit-transition: color 0.7s ease-in-out;
+  transition: color 0.7s ease-in-out;
   font-weight: 500;
-}
-
-.section-2 .nav-container .menu .item-list a i {
-  margin-left: 0.5rem;
-  font-size: 1rem;
-  -webkit-transform: translateY(-30%);
-          transform: translateY(-30%);
 }
 
 .section-2 .nav-container .menu .item-list a:hover {
